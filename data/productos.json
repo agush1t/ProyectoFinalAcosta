@@ -1,0 +1,14 @@
+[
+    { "id": 1, "nombre": "Fernet BRANCA Botella 750 Cc", "precio": 15000 },
+    { "id": 2, "nombre": "Cerveza Lager HEINEKEN Botella 1 L", "precio": 5000 },
+    { "id": 3, "nombre": "Vino Malbec ALMA MORA Botella 750cc", "precio": 3500 },
+    { "id": 4, "nombre": "Vino Chenin Dulce SANTA JULIA Botella 750ml", "precio": 3500 },
+    { "id": 5, "nombre": "Gin Premium Pink GORDONS Botella 700ml", "precio": 12000 },
+    { "id": 6, "nombre": "Vodka Infusions Cosmic SKYY Botella 750ml", "precio": 6500 },
+    { "id": 7, "nombre": "Whisky JOHNIE WALKER Red Label Botella 750ml", "precio": 25000 },
+    { "id": 8, "nombre": "Aperitivo JAGERMEISTER Botella 700 Cc", "precio": 33000 },
+    { "id": 9, "nombre": "Aperitivo APEROL Botella 750 Cc", "precio": 10000 },
+    { "id": 10, "nombre": "Aperitivo CAMPARI Botella 750 CC", "precio": 7000 },
+    { "id": 11, "nombre": "Champagne CHANDONM Extra Brut Botella 750ml", "precio": 15000 },
+    { "id": 12, "nombre": "Americano GANCIA Botella 950 Cc", "precio": 5000 }
+]

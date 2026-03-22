@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final - Tienda Premium de Bebidas</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Librería externa -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Tienda Premium de Bebidas</h1>
+        <p class="subtitulo">¿Sed? Nosotros te la calmamos en minutos, tu bebida favorita, más rápida que tu sed </p>
+    </header>
+
+    <main class="contenedor-principal">
+
+        <!-- LOGIN -->
+        <section id="login" class="card">
+            <h2>Ingreso de usuario</h2>
+            <form id="formUsuario">
+                <input type="text" id="nombre" placeholder="Nombre" value="Agustin">
+                <input type="number" id="edad" placeholder="Edad" value="20">
+                <button type="submit">Ingresar</button>
+            </form>
+            <p id="mensaje"></p>
+        </section>
+
+        <!-- CATALOGO -->
+        <section id="catalogo" class="card" style="display:none;">
+            <h2>Catálogo de productos</h2>
+            <div id="contenedorProductos" class="grid-productos"></div>
+        </section>
+
+        <!-- CARRITO -->
+        <section id="carritoSection" class="card">
+            <h2>Carrito de compras</h2>
+            <ul id="listaCarrito"></ul>
+            <h3 id="total">Total: $0</h3>
+
+            <div class="acciones-carrito">
+                <button id="vaciarCarrito">Vaciar carrito</button>
+                <button id="finalizarCompra">Finalizar compra</button>
+            </div>
+
+            <div id="mensajeCompra"></div>
+        </section>
+
+        <!-- HISTORIAL -->
+        <section id="historialSection" class="card">
+            <h2>Historial de compras</h2>
+            <div id="historialCompras">
+                <p>Todavía no hay compras registradas.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Proyecto Final de JavaScript - Simulador interactivo Ecommerce</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
