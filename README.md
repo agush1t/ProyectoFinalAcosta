@@ -40,5 +40,9 @@ La aplicación permite:
 2. Abrir la carpeta del proyecto
 3. Ejecutar `index.html` con Live Server o desde un entorno local
 
+## Vista previa
+
+![Preview](./screenshot.png)
+
 ## Autor
 Agustin Acosta
